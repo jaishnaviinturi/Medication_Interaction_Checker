@@ -25,6 +25,7 @@ Thumbs.db
 *.sublime-workspace
 *.sublime-project
 .vscode/
+.vscode/
 
 # Dependency lock files (optional, keep if you want to track them)
 # package-lock.json
