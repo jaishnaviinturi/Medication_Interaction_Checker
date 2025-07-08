@@ -1,0 +1,35 @@
+# .gitignore
+
+# Backend
+__pycache__/
+*.py[cod]
+*.log
+.env
+interactions_cache.db
+rxnorm_cache.db
+severity_cache.db
+
+# Frontend
+node_modules/
+dist/
+build/
+*.log
+rxnorm_cache.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.idea/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+
+# Dependency lock files (optional, keep if you want to track them)
+# package-lock.json
+# package.json (keep this, but commented as an example)
+
+# Other
+*.bak
+*.swp
